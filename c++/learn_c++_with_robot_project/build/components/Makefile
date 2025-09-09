@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durobo/robot/c++/robot_project
+CMAKE_SOURCE_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durobo/robot/c++/robot_project/build
+CMAKE_BINARY_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/robot_project/build/CMakeFiles /home/durobo/robot/c++/robot_project/build/components//CMakeFiles/progress.marks
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/robot_project/build/CMakeFiles 0
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles /home/durobo/robot/c++/learn_c++_with_robot_project/build/components//CMakeFiles/progress.marks
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/clean
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/preinstall
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/preinstall
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 components/CMakeFiles/components.dir/rule:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/CMakeFiles/components.dir/rule
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 components/CMakeFiles/components.dir/rule
 .PHONY : components/CMakeFiles/components.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ components: components/CMakeFiles/components.dir/rule
 
 # fast build rule for target.
 components/fast:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/build
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/build
 .PHONY : components/fast
 
 src/Gripper.o: src/Gripper.cpp.o
@@ -180,7 +180,7 @@ src/Gripper.o: src/Gripper.cpp.o
 
 # target to build an object file
 src/Gripper.cpp.o:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Gripper.cpp.o
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Gripper.cpp.o
 .PHONY : src/Gripper.cpp.o
 
 src/Gripper.i: src/Gripper.cpp.i
@@ -188,7 +188,7 @@ src/Gripper.i: src/Gripper.cpp.i
 
 # target to preprocess a source file
 src/Gripper.cpp.i:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Gripper.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Gripper.cpp.i
 .PHONY : src/Gripper.cpp.i
 
 src/Gripper.s: src/Gripper.cpp.s
@@ -196,7 +196,7 @@ src/Gripper.s: src/Gripper.cpp.s
 
 # target to generate assembly for a file
 src/Gripper.cpp.s:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Gripper.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Gripper.cpp.s
 .PHONY : src/Gripper.cpp.s
 
 src/Kinematics.o: src/Kinematics.cpp.o
@@ -204,7 +204,7 @@ src/Kinematics.o: src/Kinematics.cpp.o
 
 # target to build an object file
 src/Kinematics.cpp.o:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Kinematics.cpp.o
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Kinematics.cpp.o
 .PHONY : src/Kinematics.cpp.o
 
 src/Kinematics.i: src/Kinematics.cpp.i
@@ -212,7 +212,7 @@ src/Kinematics.i: src/Kinematics.cpp.i
 
 # target to preprocess a source file
 src/Kinematics.cpp.i:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Kinematics.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Kinematics.cpp.i
 .PHONY : src/Kinematics.cpp.i
 
 src/Kinematics.s: src/Kinematics.cpp.s
@@ -220,7 +220,7 @@ src/Kinematics.s: src/Kinematics.cpp.s
 
 # target to generate assembly for a file
 src/Kinematics.cpp.s:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Kinematics.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/Kinematics.cpp.s
 .PHONY : src/Kinematics.cpp.s
 
 src/RobotComponent.o: src/RobotComponent.cpp.o
@@ -228,7 +228,7 @@ src/RobotComponent.o: src/RobotComponent.cpp.o
 
 # target to build an object file
 src/RobotComponent.cpp.o:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotComponent.cpp.o
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotComponent.cpp.o
 .PHONY : src/RobotComponent.cpp.o
 
 src/RobotComponent.i: src/RobotComponent.cpp.i
@@ -236,7 +236,7 @@ src/RobotComponent.i: src/RobotComponent.cpp.i
 
 # target to preprocess a source file
 src/RobotComponent.cpp.i:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotComponent.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotComponent.cpp.i
 .PHONY : src/RobotComponent.cpp.i
 
 src/RobotComponent.s: src/RobotComponent.cpp.s
@@ -244,7 +244,7 @@ src/RobotComponent.s: src/RobotComponent.cpp.s
 
 # target to generate assembly for a file
 src/RobotComponent.cpp.s:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotComponent.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotComponent.cpp.s
 .PHONY : src/RobotComponent.cpp.s
 
 src/RobotJoint.o: src/RobotJoint.cpp.o
@@ -252,7 +252,7 @@ src/RobotJoint.o: src/RobotJoint.cpp.o
 
 # target to build an object file
 src/RobotJoint.cpp.o:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotJoint.cpp.o
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotJoint.cpp.o
 .PHONY : src/RobotJoint.cpp.o
 
 src/RobotJoint.i: src/RobotJoint.cpp.i
@@ -260,7 +260,7 @@ src/RobotJoint.i: src/RobotJoint.cpp.i
 
 # target to preprocess a source file
 src/RobotJoint.cpp.i:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotJoint.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotJoint.cpp.i
 .PHONY : src/RobotJoint.cpp.i
 
 src/RobotJoint.s: src/RobotJoint.cpp.s
@@ -268,7 +268,7 @@ src/RobotJoint.s: src/RobotJoint.cpp.s
 
 # target to generate assembly for a file
 src/RobotJoint.cpp.s:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotJoint.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotJoint.cpp.s
 .PHONY : src/RobotJoint.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

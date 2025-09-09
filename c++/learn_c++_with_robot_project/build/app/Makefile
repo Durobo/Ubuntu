@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durobo/robot/c++/robot_project
+CMAKE_SOURCE_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durobo/robot/c++/robot_project/build
+CMAKE_BINARY_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/robot_project/build/CMakeFiles /home/durobo/robot/c++/robot_project/build/app//CMakeFiles/progress.marks
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/robot_project/build/CMakeFiles 0
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles /home/durobo/robot/c++/learn_c++_with_robot_project/build/app//CMakeFiles/progress.marks
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/my_robot_app.dir/rule:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/my_robot_app.dir/rule
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/my_robot_app.dir/rule
 .PHONY : app/CMakeFiles/my_robot_app.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ my_robot_app: app/CMakeFiles/my_robot_app.dir/rule
 
 # fast build rule for target.
 my_robot_app/fast:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/build
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/build
 .PHONY : my_robot_app/fast
 
 main.o: main.cpp.o
@@ -180,7 +180,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/main.cpp.o
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -188,7 +188,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/main.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -196,7 +196,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/main.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/my_robot_app.dir/build.make app/CMakeFiles/my_robot_app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

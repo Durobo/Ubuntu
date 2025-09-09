@@ -1,5 +1,5 @@
-if(EXISTS "/home/durobo/robot/c++/robot_project/build/tests/kinematics_test[1]_tests.cmake")
-  include("/home/durobo/robot/c++/robot_project/build/tests/kinematics_test[1]_tests.cmake")
+if(EXISTS "/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/kinematics_test[1]_tests.cmake")
+  include("/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/kinematics_test[1]_tests.cmake")
 else()
   add_test(kinematics_test_NOT_BUILT kinematics_test_NOT_BUILT)
 endif()

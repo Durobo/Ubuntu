@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/durobo/robot/c++/robot_project/components/include -isystem /usr/include/eigen3 -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/home/durobo/robot/c++/learn_c++_with_robot_project/components/include -isystem /usr/include/eigen3 -isystem /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -std=gnu++17
 

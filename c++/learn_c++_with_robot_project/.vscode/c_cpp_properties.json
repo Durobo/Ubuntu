@@ -1,8 +1,8 @@
 {
   "configurations": [
     {
-      "name": "Linux",
-      "compileCommands": "${workspaceFolder}/robot_project/build/compile_commands.json",
+      "name": "Robot_C++",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
       "cppStandard": "c++17",
       "intelliSenseMode": "linux-gcc-x64"
     }

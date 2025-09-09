@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durobo/robot/c++/robot_project
+CMAKE_SOURCE_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durobo/robot/c++/robot_project/build
+CMAKE_BINARY_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/kinematics_test.dir/depend.make
@@ -70,18 +70,18 @@ include tests/CMakeFiles/kinematics_test.dir/progress.make
 include tests/CMakeFiles/kinematics_test.dir/flags.make
 
 tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o: tests/CMakeFiles/kinematics_test.dir/flags.make
-tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o: /home/durobo/robot/c++/robot_project/tests/test_kinematics.cpp
+tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o: /home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_kinematics.cpp
 tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o: tests/CMakeFiles/kinematics_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o"
-	cd /home/durobo/robot/c++/robot_project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o -MF CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o.d -o CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o -c /home/durobo/robot/c++/robot_project/tests/test_kinematics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o -MF CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o.d -o CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_kinematics.cpp
 
 tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/kinematics_test.dir/test_kinematics.cpp.i"
-	cd /home/durobo/robot/c++/robot_project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/robot_project/tests/test_kinematics.cpp > CMakeFiles/kinematics_test.dir/test_kinematics.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_kinematics.cpp > CMakeFiles/kinematics_test.dir/test_kinematics.cpp.i
 
 tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/kinematics_test.dir/test_kinematics.cpp.s"
-	cd /home/durobo/robot/c++/robot_project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/robot_project/tests/test_kinematics.cpp -o CMakeFiles/kinematics_test.dir/test_kinematics.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_kinematics.cpp -o CMakeFiles/kinematics_test.dir/test_kinematics.cpp.s
 
 # Object files for target kinematics_test
 kinematics_test_OBJECTS = \
@@ -96,19 +96,19 @@ tests/kinematics_test: components/libcomponents.a
 tests/kinematics_test: lib/libgtest_main.a
 tests/kinematics_test: lib/libgtest.a
 tests/kinematics_test: tests/CMakeFiles/kinematics_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/durobo/robot/c++/robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable kinematics_test"
-	cd /home/durobo/robot/c++/robot_project/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinematics_test.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/durobo/robot/c++/robot_project/build/tests && /usr/bin/cmake -D TEST_TARGET=kinematics_test -D TEST_EXECUTABLE=/home/durobo/robot/c++/robot_project/build/tests/kinematics_test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/durobo/robot/c++/robot_project/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=kinematics_test_TESTS -D CTEST_FILE=/home/durobo/robot/c++/robot_project/build/tests/kinematics_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.28/Modules/GoogleTestAddTests.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable kinematics_test"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kinematics_test.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests && /usr/bin/cmake -D TEST_TARGET=kinematics_test -D TEST_EXECUTABLE=/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/kinematics_test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=kinematics_test_TESTS -D CTEST_FILE=/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/kinematics_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /usr/share/cmake-3.28/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/kinematics_test.dir/build: tests/kinematics_test
 .PHONY : tests/CMakeFiles/kinematics_test.dir/build
 
 tests/CMakeFiles/kinematics_test.dir/clean:
-	cd /home/durobo/robot/c++/robot_project/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/kinematics_test.dir/cmake_clean.cmake
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/kinematics_test.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/kinematics_test.dir/clean
 
 tests/CMakeFiles/kinematics_test.dir/depend:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/durobo/robot/c++/robot_project /home/durobo/robot/c++/robot_project/tests /home/durobo/robot/c++/robot_project/build /home/durobo/robot/c++/robot_project/build/tests /home/durobo/robot/c++/robot_project/build/tests/CMakeFiles/kinematics_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/durobo/robot/c++/learn_c++_with_robot_project /home/durobo/robot/c++/learn_c++_with_robot_project/tests /home/durobo/robot/c++/learn_c++_with_robot_project/build /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/CMakeFiles/kinematics_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : tests/CMakeFiles/kinematics_test.dir/depend
 

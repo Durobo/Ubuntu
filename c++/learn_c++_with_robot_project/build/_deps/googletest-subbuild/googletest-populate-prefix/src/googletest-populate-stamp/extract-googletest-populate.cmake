@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/durobo/robot/c++/robot_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.12.1.zip" ABSOLUTE)
-get_filename_component(directory "/home/durobo/robot/c++/robot_project/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "/home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-subbuild/googletest-populate-prefix/src/release-1.12.1.zip" ABSOLUTE)
+get_filename_component(directory "/home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

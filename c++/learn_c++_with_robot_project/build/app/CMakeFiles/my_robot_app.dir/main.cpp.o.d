@@ -1,8 +1,8 @@
 app/CMakeFiles/my_robot_app.dir/main.cpp.o: \
- /home/durobo/robot/c++/robot_project/app/main.cpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/app/main.cpp \
  /usr/include/stdc-predef.h \
- /home/durobo/robot/c++/robot_project/components/include/components/RobotJoint.hpp \
- /home/durobo/robot/c++/robot_project/components/include/components/RobotComponent.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/RobotJoint.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/RobotComponent.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -117,8 +117,8 @@ app/CMakeFiles/my_robot_app.dir/main.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/durobo/robot/c++/robot_project/components/include/components/Gripper.hpp \
- /home/durobo/robot/c++/robot_project/components/include/components/Kinematics.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/Gripper.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/Kinematics.hpp \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \

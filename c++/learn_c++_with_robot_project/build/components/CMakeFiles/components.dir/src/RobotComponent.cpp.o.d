@@ -1,7 +1,7 @@
 components/CMakeFiles/components.dir/src/RobotComponent.cpp.o: \
- /home/durobo/robot/c++/robot_project/components/src/RobotComponent.cpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotComponent.cpp \
  /usr/include/stdc-predef.h \
- /home/durobo/robot/c++/robot_project/components/include/components/RobotComponent.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/RobotComponent.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

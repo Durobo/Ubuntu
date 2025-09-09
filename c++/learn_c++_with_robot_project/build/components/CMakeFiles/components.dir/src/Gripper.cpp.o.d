@@ -1,8 +1,8 @@
 components/CMakeFiles/components.dir/src/Gripper.cpp.o: \
- /home/durobo/robot/c++/robot_project/components/src/Gripper.cpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Gripper.cpp \
  /usr/include/stdc-predef.h \
- /home/durobo/robot/c++/robot_project/components/include/components/Gripper.hpp \
- /home/durobo/robot/c++/robot_project/components/include/components/RobotComponent.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/Gripper.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/RobotComponent.hpp \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

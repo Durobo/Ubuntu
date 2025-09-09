@@ -1,4 +1,4 @@
-# Install script for directory: /home/durobo/robot/c++/robot_project/components
+# Install script for directory: /home/durobo/robot/c++/learn_c++_with_robot_project/components
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durobo/robot/c++/robot_project
+CMAKE_SOURCE_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durobo/robot/c++/robot_project/build
+CMAKE_BINARY_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project/build
 
 # Include any dependencies generated for this target.
 include components/CMakeFiles/components.dir/depend.make
@@ -70,60 +70,60 @@ include components/CMakeFiles/components.dir/progress.make
 include components/CMakeFiles/components.dir/flags.make
 
 components/CMakeFiles/components.dir/src/RobotComponent.cpp.o: components/CMakeFiles/components.dir/flags.make
-components/CMakeFiles/components.dir/src/RobotComponent.cpp.o: /home/durobo/robot/c++/robot_project/components/src/RobotComponent.cpp
+components/CMakeFiles/components.dir/src/RobotComponent.cpp.o: /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotComponent.cpp
 components/CMakeFiles/components.dir/src/RobotComponent.cpp.o: components/CMakeFiles/components.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object components/CMakeFiles/components.dir/src/RobotComponent.cpp.o"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/RobotComponent.cpp.o -MF CMakeFiles/components.dir/src/RobotComponent.cpp.o.d -o CMakeFiles/components.dir/src/RobotComponent.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/RobotComponent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object components/CMakeFiles/components.dir/src/RobotComponent.cpp.o"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/RobotComponent.cpp.o -MF CMakeFiles/components.dir/src/RobotComponent.cpp.o.d -o CMakeFiles/components.dir/src/RobotComponent.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotComponent.cpp
 
 components/CMakeFiles/components.dir/src/RobotComponent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/components.dir/src/RobotComponent.cpp.i"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/robot_project/components/src/RobotComponent.cpp > CMakeFiles/components.dir/src/RobotComponent.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotComponent.cpp > CMakeFiles/components.dir/src/RobotComponent.cpp.i
 
 components/CMakeFiles/components.dir/src/RobotComponent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/components.dir/src/RobotComponent.cpp.s"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/robot_project/components/src/RobotComponent.cpp -o CMakeFiles/components.dir/src/RobotComponent.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotComponent.cpp -o CMakeFiles/components.dir/src/RobotComponent.cpp.s
 
 components/CMakeFiles/components.dir/src/RobotJoint.cpp.o: components/CMakeFiles/components.dir/flags.make
-components/CMakeFiles/components.dir/src/RobotJoint.cpp.o: /home/durobo/robot/c++/robot_project/components/src/RobotJoint.cpp
+components/CMakeFiles/components.dir/src/RobotJoint.cpp.o: /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotJoint.cpp
 components/CMakeFiles/components.dir/src/RobotJoint.cpp.o: components/CMakeFiles/components.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object components/CMakeFiles/components.dir/src/RobotJoint.cpp.o"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/RobotJoint.cpp.o -MF CMakeFiles/components.dir/src/RobotJoint.cpp.o.d -o CMakeFiles/components.dir/src/RobotJoint.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/RobotJoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object components/CMakeFiles/components.dir/src/RobotJoint.cpp.o"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/RobotJoint.cpp.o -MF CMakeFiles/components.dir/src/RobotJoint.cpp.o.d -o CMakeFiles/components.dir/src/RobotJoint.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotJoint.cpp
 
 components/CMakeFiles/components.dir/src/RobotJoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/components.dir/src/RobotJoint.cpp.i"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/robot_project/components/src/RobotJoint.cpp > CMakeFiles/components.dir/src/RobotJoint.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotJoint.cpp > CMakeFiles/components.dir/src/RobotJoint.cpp.i
 
 components/CMakeFiles/components.dir/src/RobotJoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/components.dir/src/RobotJoint.cpp.s"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/robot_project/components/src/RobotJoint.cpp -o CMakeFiles/components.dir/src/RobotJoint.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotJoint.cpp -o CMakeFiles/components.dir/src/RobotJoint.cpp.s
 
 components/CMakeFiles/components.dir/src/Gripper.cpp.o: components/CMakeFiles/components.dir/flags.make
-components/CMakeFiles/components.dir/src/Gripper.cpp.o: /home/durobo/robot/c++/robot_project/components/src/Gripper.cpp
+components/CMakeFiles/components.dir/src/Gripper.cpp.o: /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Gripper.cpp
 components/CMakeFiles/components.dir/src/Gripper.cpp.o: components/CMakeFiles/components.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object components/CMakeFiles/components.dir/src/Gripper.cpp.o"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/Gripper.cpp.o -MF CMakeFiles/components.dir/src/Gripper.cpp.o.d -o CMakeFiles/components.dir/src/Gripper.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/Gripper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object components/CMakeFiles/components.dir/src/Gripper.cpp.o"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/Gripper.cpp.o -MF CMakeFiles/components.dir/src/Gripper.cpp.o.d -o CMakeFiles/components.dir/src/Gripper.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Gripper.cpp
 
 components/CMakeFiles/components.dir/src/Gripper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/components.dir/src/Gripper.cpp.i"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/robot_project/components/src/Gripper.cpp > CMakeFiles/components.dir/src/Gripper.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Gripper.cpp > CMakeFiles/components.dir/src/Gripper.cpp.i
 
 components/CMakeFiles/components.dir/src/Gripper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/components.dir/src/Gripper.cpp.s"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/robot_project/components/src/Gripper.cpp -o CMakeFiles/components.dir/src/Gripper.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Gripper.cpp -o CMakeFiles/components.dir/src/Gripper.cpp.s
 
 components/CMakeFiles/components.dir/src/Kinematics.cpp.o: components/CMakeFiles/components.dir/flags.make
-components/CMakeFiles/components.dir/src/Kinematics.cpp.o: /home/durobo/robot/c++/robot_project/components/src/Kinematics.cpp
+components/CMakeFiles/components.dir/src/Kinematics.cpp.o: /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Kinematics.cpp
 components/CMakeFiles/components.dir/src/Kinematics.cpp.o: components/CMakeFiles/components.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object components/CMakeFiles/components.dir/src/Kinematics.cpp.o"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/Kinematics.cpp.o -MF CMakeFiles/components.dir/src/Kinematics.cpp.o.d -o CMakeFiles/components.dir/src/Kinematics.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/Kinematics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object components/CMakeFiles/components.dir/src/Kinematics.cpp.o"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/Kinematics.cpp.o -MF CMakeFiles/components.dir/src/Kinematics.cpp.o.d -o CMakeFiles/components.dir/src/Kinematics.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Kinematics.cpp
 
 components/CMakeFiles/components.dir/src/Kinematics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/components.dir/src/Kinematics.cpp.i"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/robot_project/components/src/Kinematics.cpp > CMakeFiles/components.dir/src/Kinematics.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Kinematics.cpp > CMakeFiles/components.dir/src/Kinematics.cpp.i
 
 components/CMakeFiles/components.dir/src/Kinematics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/components.dir/src/Kinematics.cpp.s"
-	cd /home/durobo/robot/c++/robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/robot_project/components/src/Kinematics.cpp -o CMakeFiles/components.dir/src/Kinematics.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Kinematics.cpp -o CMakeFiles/components.dir/src/Kinematics.cpp.s
 
 # Object files for target components
 components_OBJECTS = \
@@ -141,19 +141,19 @@ components/libcomponents.a: components/CMakeFiles/components.dir/src/Gripper.cpp
 components/libcomponents.a: components/CMakeFiles/components.dir/src/Kinematics.cpp.o
 components/libcomponents.a: components/CMakeFiles/components.dir/build.make
 components/libcomponents.a: components/CMakeFiles/components.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/durobo/robot/c++/robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcomponents.a"
-	cd /home/durobo/robot/c++/robot_project/build/components && $(CMAKE_COMMAND) -P CMakeFiles/components.dir/cmake_clean_target.cmake
-	cd /home/durobo/robot/c++/robot_project/build/components && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/components.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcomponents.a"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && $(CMAKE_COMMAND) -P CMakeFiles/components.dir/cmake_clean_target.cmake
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/components.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 components/CMakeFiles/components.dir/build: components/libcomponents.a
 .PHONY : components/CMakeFiles/components.dir/build
 
 components/CMakeFiles/components.dir/clean:
-	cd /home/durobo/robot/c++/robot_project/build/components && $(CMAKE_COMMAND) -P CMakeFiles/components.dir/cmake_clean.cmake
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && $(CMAKE_COMMAND) -P CMakeFiles/components.dir/cmake_clean.cmake
 .PHONY : components/CMakeFiles/components.dir/clean
 
 components/CMakeFiles/components.dir/depend:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/durobo/robot/c++/robot_project /home/durobo/robot/c++/robot_project/components /home/durobo/robot/c++/robot_project/build /home/durobo/robot/c++/robot_project/build/components /home/durobo/robot/c++/robot_project/build/components/CMakeFiles/components.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/durobo/robot/c++/learn_c++_with_robot_project /home/durobo/robot/c++/learn_c++_with_robot_project/components /home/durobo/robot/c++/learn_c++_with_robot_project/build /home/durobo/robot/c++/learn_c++_with_robot_project/build/components /home/durobo/robot/c++/learn_c++_with_robot_project/build/components/CMakeFiles/components.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : components/CMakeFiles/components.dir/depend
 

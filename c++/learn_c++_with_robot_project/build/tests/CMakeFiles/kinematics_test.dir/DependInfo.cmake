@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/durobo/robot/c++/robot_project/tests/test_kinematics.cpp" "tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o" "gcc" "tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o.d"
+  "/home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_kinematics.cpp" "tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o" "gcc" "tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

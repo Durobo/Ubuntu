@@ -1,4 +1,4 @@
-# Install script for directory: /home/durobo/robot/c++/robot_project
+# Install script for directory: /home/durobo/robot/c++/learn_c++_with_robot_project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,10 +44,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/durobo/robot/c++/robot_project/build/components/cmake_install.cmake")
-  include("/home/durobo/robot/c++/robot_project/build/app/cmake_install.cmake")
-  include("/home/durobo/robot/c++/robot_project/build/_deps/googletest-build/cmake_install.cmake")
-  include("/home/durobo/robot/c++/robot_project/build/tests/cmake_install.cmake")
+  include("/home/durobo/robot/c++/learn_c++_with_robot_project/build/components/cmake_install.cmake")
+  include("/home/durobo/robot/c++/learn_c++_with_robot_project/build/app/cmake_install.cmake")
+  include("/home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/cmake_install.cmake")
 
 endif()
 
@@ -59,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/durobo/robot/c++/robot_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/durobo/robot/c++/learn_c++_with_robot_project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

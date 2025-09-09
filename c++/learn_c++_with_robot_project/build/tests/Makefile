@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/durobo/robot/c++/robot_project
+CMAKE_SOURCE_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/durobo/robot/c++/robot_project/build
+CMAKE_BINARY_DIR = /home/durobo/robot/c++/learn_c++_with_robot_project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/robot_project/build/CMakeFiles /home/durobo/robot/c++/robot_project/build/tests//CMakeFiles/progress.marks
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/robot_project/build/CMakeFiles 0
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests//CMakeFiles/progress.marks
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/kinematics_test.dir/rule:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/kinematics_test.dir/rule
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/kinematics_test.dir/rule
 .PHONY : tests/CMakeFiles/kinematics_test.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ kinematics_test: tests/CMakeFiles/kinematics_test.dir/rule
 
 # fast build rule for target.
 kinematics_test/fast:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/build
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/build
 .PHONY : kinematics_test/fast
 
 test_kinematics.o: test_kinematics.cpp.o
@@ -180,7 +180,7 @@ test_kinematics.o: test_kinematics.cpp.o
 
 # target to build an object file
 test_kinematics.cpp.o:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o
 .PHONY : test_kinematics.cpp.o
 
 test_kinematics.i: test_kinematics.cpp.i
@@ -188,7 +188,7 @@ test_kinematics.i: test_kinematics.cpp.i
 
 # target to preprocess a source file
 test_kinematics.cpp.i:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.i
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.i
 .PHONY : test_kinematics.cpp.i
 
 test_kinematics.s: test_kinematics.cpp.s
@@ -196,7 +196,7 @@ test_kinematics.s: test_kinematics.cpp.s
 
 # target to generate assembly for a file
 test_kinematics.cpp.s:
-	cd /home/durobo/robot/c++/robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.s
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.s
 .PHONY : test_kinematics.cpp.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/durobo/robot/c++/robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

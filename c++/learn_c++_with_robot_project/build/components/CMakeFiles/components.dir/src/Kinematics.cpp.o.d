@@ -1,7 +1,7 @@
 components/CMakeFiles/components.dir/src/Kinematics.cpp.o: \
- /home/durobo/robot/c++/robot_project/components/src/Kinematics.cpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Kinematics.cpp \
  /usr/include/stdc-predef.h \
- /home/durobo/robot/c++/robot_project/components/include/components/Kinematics.hpp \
+ /home/durobo/robot/c++/learn_c++_with_robot_project/components/include/components/Kinematics.hpp \
  /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
