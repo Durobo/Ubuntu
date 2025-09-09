@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/components",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/components/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/components.dir/src/RobotComponent.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/RobotComponent.cpp",
+  "file": "/home/durobo/robot/c++/robot_project/components/src/RobotComponent.cpp",
+  "output": "components/CMakeFiles/components.dir/src/RobotComponent.cpp.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/components",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/components/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/components.dir/src/RobotJoint.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/RobotJoint.cpp",
+  "file": "/home/durobo/robot/c++/robot_project/components/src/RobotJoint.cpp",
+  "output": "components/CMakeFiles/components.dir/src/RobotJoint.cpp.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/components",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/components/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/components.dir/src/Gripper.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/Gripper.cpp",
+  "file": "/home/durobo/robot/c++/robot_project/components/src/Gripper.cpp",
+  "output": "components/CMakeFiles/components.dir/src/Gripper.cpp.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/components",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/components/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/components.dir/src/Kinematics.cpp.o -c /home/durobo/robot/c++/robot_project/components/src/Kinematics.cpp",
+  "file": "/home/durobo/robot/c++/robot_project/components/src/Kinematics.cpp",
+  "output": "components/CMakeFiles/components.dir/src/Kinematics.cpp.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/app",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/components/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/my_robot_app.dir/main.cpp.o -c /home/durobo/robot/c++/robot_project/app/main.cpp",
+  "file": "/home/durobo/robot/c++/robot_project/app/main.cpp",
+  "output": "app/CMakeFiles/my_robot_app.dir/main.cpp.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock/include -I/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++  -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock/include -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/include -I/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++  -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest -std=c++17 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+},
+{
+  "directory": "/home/durobo/robot/c++/robot_project/build/tests",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/robot_project/components/include -isystem /usr/include/eigen3 -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/robot_project/build/_deps/googletest-src/googletest -std=gnu++17 -o CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o -c /home/durobo/robot/c++/robot_project/tests/test_kinematics.cpp",
+  "file": "/home/durobo/robot/c++/robot_project/tests/test_kinematics.cpp",
+  "output": "tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o"
+}
+]

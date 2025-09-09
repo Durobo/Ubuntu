@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/my_robot_app.dir/main.cpp.o -o my_robot_app  ../components/libcomponents.a 

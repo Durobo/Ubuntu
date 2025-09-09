@@ -1,0 +1,5 @@
+add_test([=[KinematicsTest.Constructor]=]  [==[/home/durobo/robot/c++/robot_project/build/tests/kinematics_test]==] [==[--gtest_filter=KinematicsTest.Constructor]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[KinematicsTest.Constructor]=]  PROPERTIES WORKING_DIRECTORY [==[/home/durobo/robot/c++/robot_project/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[KinematicsTest.MoveFunction]=]  [==[/home/durobo/robot/c++/robot_project/build/tests/kinematics_test]==] [==[--gtest_filter=KinematicsTest.MoveFunction]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[KinematicsTest.MoveFunction]=]  PROPERTIES WORKING_DIRECTORY [==[/home/durobo/robot/c++/robot_project/build/tests]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  kinematics_test_TESTS KinematicsTest.Constructor KinematicsTest.MoveFunction)
