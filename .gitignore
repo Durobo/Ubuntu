@@ -1,0 +1,84 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.sqlite3
+*.log
+*.tmp
+*.swp
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+*.env
+
+# Data / model outputs
+*.npy
+*.npz
+*.h5
+*.pkl
+*.joblib
+
+# =========================
+# C++
+# =========================
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+build/
+bin/
+lib/
+dist/
+Debug/
+Release/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# IDE / Editor configs
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcomponents.a CMakeFiles/components.dir/src/RobotComponent.cpp.o CMakeFiles/components.dir/src/RobotJoint.cpp.o CMakeFiles/components.dir/src/Gripper.cpp.o CMakeFiles/components.dir/src/Kinematics.cpp.o CMakeFiles/components.dir/src/TwoLinkArm.cpp.o
-/usr/bin/ranlib libcomponents.a
