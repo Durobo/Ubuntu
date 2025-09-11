@@ -125,12 +125,27 @@ components/CMakeFiles/components.dir/src/Kinematics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/components.dir/src/Kinematics.cpp.s"
 	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Kinematics.cpp -o CMakeFiles/components.dir/src/Kinematics.cpp.s
 
+components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o: components/CMakeFiles/components.dir/flags.make
+components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o: /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/TwoLinkArm.cpp
+components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o: components/CMakeFiles/components.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o -MF CMakeFiles/components.dir/src/TwoLinkArm.cpp.o.d -o CMakeFiles/components.dir/src/TwoLinkArm.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/TwoLinkArm.cpp
+
+components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/components.dir/src/TwoLinkArm.cpp.i"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/TwoLinkArm.cpp > CMakeFiles/components.dir/src/TwoLinkArm.cpp.i
+
+components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/components.dir/src/TwoLinkArm.cpp.s"
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/TwoLinkArm.cpp -o CMakeFiles/components.dir/src/TwoLinkArm.cpp.s
+
 # Object files for target components
 components_OBJECTS = \
 "CMakeFiles/components.dir/src/RobotComponent.cpp.o" \
 "CMakeFiles/components.dir/src/RobotJoint.cpp.o" \
 "CMakeFiles/components.dir/src/Gripper.cpp.o" \
-"CMakeFiles/components.dir/src/Kinematics.cpp.o"
+"CMakeFiles/components.dir/src/Kinematics.cpp.o" \
+"CMakeFiles/components.dir/src/TwoLinkArm.cpp.o"
 
 # External object files for target components
 components_EXTERNAL_OBJECTS =
@@ -139,9 +154,10 @@ components/libcomponents.a: components/CMakeFiles/components.dir/src/RobotCompon
 components/libcomponents.a: components/CMakeFiles/components.dir/src/RobotJoint.cpp.o
 components/libcomponents.a: components/CMakeFiles/components.dir/src/Gripper.cpp.o
 components/libcomponents.a: components/CMakeFiles/components.dir/src/Kinematics.cpp.o
+components/libcomponents.a: components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o
 components/libcomponents.a: components/CMakeFiles/components.dir/build.make
 components/libcomponents.a: components/CMakeFiles/components.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcomponents.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/durobo/robot/c++/learn_c++_with_robot_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libcomponents.a"
 	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && $(CMAKE_COMMAND) -P CMakeFiles/components.dir/cmake_clean_target.cmake
 	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build/components && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/components.dir/link.txt --verbose=$(VERBOSE)
 

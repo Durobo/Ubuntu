@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/durobo/robot/c++/learn_c++_with_robot_project/components/src/Kinematics.cpp" "components/CMakeFiles/components.dir/src/Kinematics.cpp.o" "gcc" "components/CMakeFiles/components.dir/src/Kinematics.cpp.o.d"
   "/home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotComponent.cpp" "components/CMakeFiles/components.dir/src/RobotComponent.cpp.o" "gcc" "components/CMakeFiles/components.dir/src/RobotComponent.cpp.o.d"
   "/home/durobo/robot/c++/learn_c++_with_robot_project/components/src/RobotJoint.cpp" "components/CMakeFiles/components.dir/src/RobotJoint.cpp.o" "gcc" "components/CMakeFiles/components.dir/src/RobotJoint.cpp.o.d"
+  "/home/durobo/robot/c++/learn_c++_with_robot_project/components/src/TwoLinkArm.cpp" "components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o" "gcc" "components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

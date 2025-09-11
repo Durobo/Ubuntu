@@ -97,5 +97,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "tests/CMakeFiles/kinematics_test.dir/DependInfo.cmake"
+  "tests/CMakeFiles/robot_test.dir/DependInfo.cmake"
   )

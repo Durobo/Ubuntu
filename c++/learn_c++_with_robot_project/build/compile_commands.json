@@ -24,6 +24,12 @@
   "output": "components/CMakeFiles/components.dir/src/Kinematics.cpp.o"
 },
 {
+  "directory": "/home/durobo/robot/c++/learn_c++_with_robot_project/build/components",
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/learn_c++_with_robot_project/components/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/components.dir/src/TwoLinkArm.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/components/src/TwoLinkArm.cpp",
+  "file": "/home/durobo/robot/c++/learn_c++_with_robot_project/components/src/TwoLinkArm.cpp",
+  "output": "components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o"
+},
+{
   "directory": "/home/durobo/robot/c++/learn_c++_with_robot_project/build/app",
   "command": "/usr/bin/c++  -I/home/durobo/robot/c++/learn_c++_with_robot_project/components/include -isystem /usr/include/eigen3 -std=gnu++17 -o CMakeFiles/my_robot_app.dir/main.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/app/main.cpp",
   "file": "/home/durobo/robot/c++/learn_c++_with_robot_project/app/main.cpp",
@@ -55,8 +61,8 @@
 },
 {
   "directory": "/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests",
-  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/learn_c++_with_robot_project/components/include -isystem /usr/include/eigen3 -isystem /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-src/googletest -std=gnu++17 -o CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_kinematics.cpp",
-  "file": "/home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_kinematics.cpp",
-  "output": "tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o"
+  "command": "/usr/bin/c++  -I/home/durobo/robot/c++/learn_c++_with_robot_project/components/include -isystem /usr/include/eigen3 -isystem /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-src/googletest/include -isystem /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-src/googletest -std=gnu++17 -o CMakeFiles/robot_test.dir/test_my_robot.cpp.o -c /home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_my_robot.cpp",
+  "file": "/home/durobo/robot/c++/learn_c++_with_robot_project/tests/test_my_robot.cpp",
+  "output": "tests/CMakeFiles/robot_test.dir/test_my_robot.cpp.o"
 }
 ]

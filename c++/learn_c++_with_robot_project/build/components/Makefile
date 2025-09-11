@@ -271,6 +271,30 @@ src/RobotJoint.cpp.s:
 	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/RobotJoint.cpp.s
 .PHONY : src/RobotJoint.cpp.s
 
+src/TwoLinkArm.o: src/TwoLinkArm.cpp.o
+.PHONY : src/TwoLinkArm.o
+
+# target to build an object file
+src/TwoLinkArm.cpp.o:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.o
+.PHONY : src/TwoLinkArm.cpp.o
+
+src/TwoLinkArm.i: src/TwoLinkArm.cpp.i
+.PHONY : src/TwoLinkArm.i
+
+# target to preprocess a source file
+src/TwoLinkArm.cpp.i:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.i
+.PHONY : src/TwoLinkArm.cpp.i
+
+src/TwoLinkArm.s: src/TwoLinkArm.cpp.s
+.PHONY : src/TwoLinkArm.s
+
+# target to generate assembly for a file
+src/TwoLinkArm.cpp.s:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f components/CMakeFiles/components.dir/build.make components/CMakeFiles/components.dir/src/TwoLinkArm.cpp.s
+.PHONY : src/TwoLinkArm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +320,9 @@ help:
 	@echo "... src/RobotJoint.o"
 	@echo "... src/RobotJoint.i"
 	@echo "... src/RobotJoint.s"
+	@echo "... src/TwoLinkArm.o"
+	@echo "... src/TwoLinkArm.i"
+	@echo "... src/TwoLinkArm.s"
 .PHONY : help
 
 

@@ -40,7 +40,7 @@
 /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-build/googletest/CMakeFiles/install.dir
 /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-build/googletest/CMakeFiles/install/local.dir
 /home/durobo/robot/c++/learn_c++_with_robot_project/build/_deps/googletest-build/googletest/CMakeFiles/install/strip.dir
-/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/CMakeFiles/kinematics_test.dir
+/home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/CMakeFiles/robot_test.dir
 /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/CMakeFiles/edit_cache.dir
 /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/CMakeFiles/rebuild_cache.dir
 /home/durobo/robot/c++/learn_c++_with_robot_project/build/tests/CMakeFiles/list_install_components.dir

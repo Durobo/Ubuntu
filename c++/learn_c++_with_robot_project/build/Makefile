@@ -240,17 +240,17 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
-# Target rules for targets named kinematics_test
+# Target rules for targets named robot_test
 
 # Build rule for target.
-kinematics_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kinematics_test
-.PHONY : kinematics_test
+robot_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot_test
+.PHONY : robot_test
 
 # fast build rule for target.
-kinematics_test/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/build
-.PHONY : kinematics_test/fast
+robot_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/robot_test.dir/build.make tests/CMakeFiles/robot_test.dir/build
+.PHONY : robot_test/fast
 
 # Help Target
 help:
@@ -269,8 +269,8 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... kinematics_test"
 	@echo "... my_robot_app"
+	@echo "... robot_test"
 .PHONY : help
 
 

@@ -11,6 +11,7 @@ target_sources(components
         src/RobotJoint.cpp
         src/Gripper.cpp
         src/Kinematics.cpp
+        src/TwoLinkArm.cpp
 )
 
 # Chỉ định thư mục 'include' là public, để các target khác

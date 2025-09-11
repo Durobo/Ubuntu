@@ -162,42 +162,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-tests/CMakeFiles/kinematics_test.dir/rule:
-	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/kinematics_test.dir/rule
-.PHONY : tests/CMakeFiles/kinematics_test.dir/rule
+tests/CMakeFiles/robot_test.dir/rule:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/robot_test.dir/rule
+.PHONY : tests/CMakeFiles/robot_test.dir/rule
 
 # Convenience name for target.
-kinematics_test: tests/CMakeFiles/kinematics_test.dir/rule
-.PHONY : kinematics_test
+robot_test: tests/CMakeFiles/robot_test.dir/rule
+.PHONY : robot_test
 
 # fast build rule for target.
-kinematics_test/fast:
-	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/build
-.PHONY : kinematics_test/fast
+robot_test/fast:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/robot_test.dir/build.make tests/CMakeFiles/robot_test.dir/build
+.PHONY : robot_test/fast
 
-test_kinematics.o: test_kinematics.cpp.o
-.PHONY : test_kinematics.o
+test_my_robot.o: test_my_robot.cpp.o
+.PHONY : test_my_robot.o
 
 # target to build an object file
-test_kinematics.cpp.o:
-	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.o
-.PHONY : test_kinematics.cpp.o
+test_my_robot.cpp.o:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/robot_test.dir/build.make tests/CMakeFiles/robot_test.dir/test_my_robot.cpp.o
+.PHONY : test_my_robot.cpp.o
 
-test_kinematics.i: test_kinematics.cpp.i
-.PHONY : test_kinematics.i
+test_my_robot.i: test_my_robot.cpp.i
+.PHONY : test_my_robot.i
 
 # target to preprocess a source file
-test_kinematics.cpp.i:
-	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.i
-.PHONY : test_kinematics.cpp.i
+test_my_robot.cpp.i:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/robot_test.dir/build.make tests/CMakeFiles/robot_test.dir/test_my_robot.cpp.i
+.PHONY : test_my_robot.cpp.i
 
-test_kinematics.s: test_kinematics.cpp.s
-.PHONY : test_kinematics.s
+test_my_robot.s: test_my_robot.cpp.s
+.PHONY : test_my_robot.s
 
 # target to generate assembly for a file
-test_kinematics.cpp.s:
-	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/kinematics_test.dir/build.make tests/CMakeFiles/kinematics_test.dir/test_kinematics.cpp.s
-.PHONY : test_kinematics.cpp.s
+test_my_robot.cpp.s:
+	cd /home/durobo/robot/c++/learn_c++_with_robot_project/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/robot_test.dir/build.make tests/CMakeFiles/robot_test.dir/test_my_robot.cpp.s
+.PHONY : test_my_robot.cpp.s
 
 # Help Target
 help:
@@ -211,10 +211,10 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... kinematics_test"
-	@echo "... test_kinematics.o"
-	@echo "... test_kinematics.i"
-	@echo "... test_kinematics.s"
+	@echo "... robot_test"
+	@echo "... test_my_robot.o"
+	@echo "... test_my_robot.i"
+	@echo "... test_my_robot.s"
 .PHONY : help
 
 
